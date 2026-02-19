@@ -1,6 +1,0 @@
-com/example/menuocr/dto/DishDto.class
-com/example/menuocr/controller/MenuController.class
-com/example/menuocr/dto/MenuParseResponse.class
-com/example/menuocr/service/DishService.class
-com/example/menuocr/MenuOcrApplication.class
-com/example/menuocr/service/OcrService.class
