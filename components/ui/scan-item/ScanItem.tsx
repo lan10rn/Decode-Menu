@@ -20,12 +20,13 @@ const BadgeBox = styled(YStack, {
 const BadgeText = styled(Text, {
   fontFamily: "$body",
   fontSize: 10, // Using raw 10 here for micro-typography
+  fontWeight: "800",
   textTransform: "uppercase",
 
   variants: {
     status: {
-      safe: { color: "$success" },
-      caution: { color: "$warning" },
+      safe: { color: "$successText" },
+      caution: { color: "$warningText" },
     },
   } as const,
 });
@@ -50,12 +51,12 @@ export function ScanItem({
     >
       {/* Thumbnail */}
       <Image
-        source={{ uri: imageUrl }}
+        src={imageUrl}
         width={40}
         height={40}
         borderRadius={8}
         marginRight={12}
-        backgroundColor="$border" // Placeholder color while loading
+        backgroundColor="$border"
       />
 
       {/* Text Container (f={1} allows it to take remaining space) */}

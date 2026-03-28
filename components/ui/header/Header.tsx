@@ -1,11 +1,20 @@
 import { MaterialIcons } from "@expo/vector-icons";
+import { useSafeAreaInsets } from "react-native-safe-area-context"; // 1. Import hook
 import { Text, View, XStack, useTheme } from "tamagui";
 
 export function Header() {
   const theme = useTheme();
+  const insets = useSafeAreaInsets(); // 2. Initialize hook
 
   return (
-    <XStack px="$6" py="$4" bg="$background" ai="center" jc="space-between">
+    <XStack
+      px="$6"
+      pt={insets.top + 16} // 3. Push the padding down by the hardware notch height
+      pb="$4"
+      bg="$background"
+      ai="center"
+      jc="space-between"
+    >
       <View
         w="$8"
         h="$8"

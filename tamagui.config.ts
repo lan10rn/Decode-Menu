@@ -23,9 +23,17 @@ const tokens = createTokens({
     neutralBorder: "rgba(100, 116, 139, 0.3)",
 
     success: "#22c55e",
+    successBorder: "rgba(34, 197, 94, 0.3)",
     successSoft: "rgba(34, 197, 94, 0.15)",
     warning: "#f59e0b",
+    warningBorder: "rgba(245, 158, 11, 0.3)",
     warningSoft: "rgba(245, 158, 11, 0.15)",
+
+    successText: "#15803d",
+    warningText: "#b45309",
+    dangerText: "#b91c1c",
+    infoText: "#1d4ed8",
+    neutralText: "#475569",
   },
   space: {
     1: 4,
@@ -61,7 +69,6 @@ const tokens = createTokens({
     true: 10,
   },
   zIndex: {
-    // 🚨 REQUIRED category
     1: 100,
     2: 200,
     3: 300,
@@ -117,6 +124,8 @@ const config = createTamagui({
   },
   themes: {
     light: {
+      ...tokens.color,
+
       background: tokens.color.background,
       surface: tokens.color.surface,
       primary: tokens.color.primary,

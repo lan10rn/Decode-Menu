@@ -66,7 +66,7 @@ export function Hero() {
         fontSize="$3"
         color="$textSub"
         ta="center"
-        maxWidth={280}
+        maxWidth={340}
         lineHeight="$4"
       >
         Analyze ingredients, detect allergens, and check dietary compatibility

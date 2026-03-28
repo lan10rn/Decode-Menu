@@ -25548,11 +25548,81 @@
           "val": "rgba(19, 127, 236, 0.1)",
           "variable": ""
         },
+        "danger": {
+          "isVar": true,
+          "key": "$danger",
+          "name": "c-danger",
+          "val": "#ef4444",
+          "variable": ""
+        },
+        "dangerSoft": {
+          "isVar": true,
+          "key": "$dangerSoft",
+          "name": "c-dangerSoft",
+          "val": "rgba(239, 68, 68, 0.15)",
+          "variable": ""
+        },
+        "dangerBorder": {
+          "isVar": true,
+          "key": "$dangerBorder",
+          "name": "c-dangerBorder",
+          "val": "rgba(239, 68, 68, 0.3)",
+          "variable": ""
+        },
+        "info": {
+          "isVar": true,
+          "key": "$info",
+          "name": "c-info",
+          "val": "#3b82f6",
+          "variable": ""
+        },
+        "infoSoft": {
+          "isVar": true,
+          "key": "$infoSoft",
+          "name": "c-infoSoft",
+          "val": "rgba(59, 130, 246, 0.15)",
+          "variable": ""
+        },
+        "infoBorder": {
+          "isVar": true,
+          "key": "$infoBorder",
+          "name": "c-infoBorder",
+          "val": "rgba(59, 130, 246, 0.3)",
+          "variable": ""
+        },
+        "neutral": {
+          "isVar": true,
+          "key": "$neutral",
+          "name": "c-neutral",
+          "val": "#64748b",
+          "variable": ""
+        },
+        "neutralSoft": {
+          "isVar": true,
+          "key": "$neutralSoft",
+          "name": "c-neutralSoft",
+          "val": "rgba(100, 116, 139, 0.15)",
+          "variable": ""
+        },
+        "neutralBorder": {
+          "isVar": true,
+          "key": "$neutralBorder",
+          "name": "c-neutralBorder",
+          "val": "rgba(100, 116, 139, 0.3)",
+          "variable": ""
+        },
         "success": {
           "isVar": true,
           "key": "$success",
           "name": "c-success",
           "val": "#22c55e",
+          "variable": ""
+        },
+        "successBorder": {
+          "isVar": true,
+          "key": "$successBorder",
+          "name": "c-successBorder",
+          "val": "rgba(34, 197, 94, 0.3)",
           "variable": ""
         },
         "successSoft": {
@@ -25569,11 +25639,53 @@
           "val": "#f59e0b",
           "variable": ""
         },
+        "warningBorder": {
+          "isVar": true,
+          "key": "$warningBorder",
+          "name": "c-warningBorder",
+          "val": "rgba(245, 158, 11, 0.3)",
+          "variable": ""
+        },
         "warningSoft": {
           "isVar": true,
           "key": "$warningSoft",
           "name": "c-warningSoft",
           "val": "rgba(245, 158, 11, 0.15)",
+          "variable": ""
+        },
+        "successText": {
+          "isVar": true,
+          "key": "$successText",
+          "name": "c-successText",
+          "val": "#15803d",
+          "variable": ""
+        },
+        "warningText": {
+          "isVar": true,
+          "key": "$warningText",
+          "name": "c-warningText",
+          "val": "#b45309",
+          "variable": ""
+        },
+        "dangerText": {
+          "isVar": true,
+          "key": "$dangerText",
+          "name": "c-dangerText",
+          "val": "#b91c1c",
+          "variable": ""
+        },
+        "infoText": {
+          "isVar": true,
+          "key": "$infoText",
+          "name": "c-infoText",
+          "val": "#1d4ed8",
+          "variable": ""
+        },
+        "neutralText": {
+          "isVar": true,
+          "key": "$neutralText",
+          "name": "c-neutralText",
+          "val": "#475569",
           "variable": ""
         }
       },
@@ -25826,10 +25938,26 @@
         "textSub": "#64748b",
         "border": "#e5e7eb",
         "primarySoft": "rgba(19, 127, 236, 0.1)",
+        "danger": "#ef4444",
+        "dangerSoft": "rgba(239, 68, 68, 0.15)",
+        "dangerBorder": "rgba(239, 68, 68, 0.3)",
+        "info": "#3b82f6",
+        "infoSoft": "rgba(59, 130, 246, 0.15)",
+        "infoBorder": "rgba(59, 130, 246, 0.3)",
+        "neutral": "#64748b",
+        "neutralSoft": "rgba(100, 116, 139, 0.15)",
+        "neutralBorder": "rgba(100, 116, 139, 0.3)",
         "success": "#22c55e",
+        "successBorder": "rgba(34, 197, 94, 0.3)",
         "successSoft": "rgba(34, 197, 94, 0.15)",
         "warning": "#f59e0b",
+        "warningBorder": "rgba(245, 158, 11, 0.3)",
         "warningSoft": "rgba(245, 158, 11, 0.15)",
+        "successText": "#15803d",
+        "warningText": "#b45309",
+        "dangerText": "#b91c1c",
+        "infoText": "#1d4ed8",
+        "neutralText": "#475569",
         "id": "light"
       }
     },
@@ -25930,6 +26058,90 @@
         "val": "#e5e7eb",
         "variable": ""
       },
+      "$color.danger": {
+        "isVar": true,
+        "key": "$danger",
+        "name": "c-danger",
+        "val": "#ef4444",
+        "variable": ""
+      },
+      "$color.dangerBorder": {
+        "isVar": true,
+        "key": "$dangerBorder",
+        "name": "c-dangerBorder",
+        "val": "rgba(239, 68, 68, 0.3)",
+        "variable": ""
+      },
+      "$color.dangerSoft": {
+        "isVar": true,
+        "key": "$dangerSoft",
+        "name": "c-dangerSoft",
+        "val": "rgba(239, 68, 68, 0.15)",
+        "variable": ""
+      },
+      "$color.dangerText": {
+        "isVar": true,
+        "key": "$dangerText",
+        "name": "c-dangerText",
+        "val": "#b91c1c",
+        "variable": ""
+      },
+      "$color.info": {
+        "isVar": true,
+        "key": "$info",
+        "name": "c-info",
+        "val": "#3b82f6",
+        "variable": ""
+      },
+      "$color.infoBorder": {
+        "isVar": true,
+        "key": "$infoBorder",
+        "name": "c-infoBorder",
+        "val": "rgba(59, 130, 246, 0.3)",
+        "variable": ""
+      },
+      "$color.infoSoft": {
+        "isVar": true,
+        "key": "$infoSoft",
+        "name": "c-infoSoft",
+        "val": "rgba(59, 130, 246, 0.15)",
+        "variable": ""
+      },
+      "$color.infoText": {
+        "isVar": true,
+        "key": "$infoText",
+        "name": "c-infoText",
+        "val": "#1d4ed8",
+        "variable": ""
+      },
+      "$color.neutral": {
+        "isVar": true,
+        "key": "$neutral",
+        "name": "c-neutral",
+        "val": "#64748b",
+        "variable": ""
+      },
+      "$color.neutralBorder": {
+        "isVar": true,
+        "key": "$neutralBorder",
+        "name": "c-neutralBorder",
+        "val": "rgba(100, 116, 139, 0.3)",
+        "variable": ""
+      },
+      "$color.neutralSoft": {
+        "isVar": true,
+        "key": "$neutralSoft",
+        "name": "c-neutralSoft",
+        "val": "rgba(100, 116, 139, 0.15)",
+        "variable": ""
+      },
+      "$color.neutralText": {
+        "isVar": true,
+        "key": "$neutralText",
+        "name": "c-neutralText",
+        "val": "#475569",
+        "variable": ""
+      },
       "$color.primary": {
         "isVar": true,
         "key": "$primary",
@@ -25951,11 +26163,25 @@
         "val": "#22c55e",
         "variable": ""
       },
+      "$color.successBorder": {
+        "isVar": true,
+        "key": "$successBorder",
+        "name": "c-successBorder",
+        "val": "rgba(34, 197, 94, 0.3)",
+        "variable": ""
+      },
       "$color.successSoft": {
         "isVar": true,
         "key": "$successSoft",
         "name": "c-successSoft",
         "val": "rgba(34, 197, 94, 0.15)",
+        "variable": ""
+      },
+      "$color.successText": {
+        "isVar": true,
+        "key": "$successText",
+        "name": "c-successText",
+        "val": "#15803d",
         "variable": ""
       },
       "$color.surface": {
@@ -25986,11 +26212,25 @@
         "val": "#f59e0b",
         "variable": ""
       },
+      "$color.warningBorder": {
+        "isVar": true,
+        "key": "$warningBorder",
+        "name": "c-warningBorder",
+        "val": "rgba(245, 158, 11, 0.3)",
+        "variable": ""
+      },
       "$color.warningSoft": {
         "isVar": true,
         "key": "$warningSoft",
         "name": "c-warningSoft",
         "val": "rgba(245, 158, 11, 0.15)",
+        "variable": ""
+      },
+      "$color.warningText": {
+        "isVar": true,
+        "key": "$warningText",
+        "name": "c-warningText",
+        "val": "#b45309",
         "variable": ""
       },
       "$radius.1": {

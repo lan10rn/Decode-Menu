@@ -42,17 +42,19 @@ export function ActionCard({
   subtitle,
   iconName,
   variant = "primary",
+  onPress,
 }: {
   title: string;
   subtitle: string;
   iconName: keyof typeof MaterialIcons.glyphMap; // Strictly types the Expo icon string
   variant?: "primary" | "secondary";
+  onPress?: () => void;
 }) {
   const theme = useTheme();
   const isPrimary = variant === "primary";
 
   return (
-    <Card variant={variant}>
+    <Card variant={variant} onPress={onPress}>
       <IconBox variant={variant}>
         <MaterialIcons
           name={iconName}

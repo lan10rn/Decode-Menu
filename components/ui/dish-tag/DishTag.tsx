@@ -34,10 +34,10 @@ export function DishTag({
 
   // Map variant to text color token
   const colorMap = {
-    danger: theme.danger.val,
-    success: theme.success.val,
-    info: theme.info.val,
-    neutral: theme.textSub.val,
+    danger: theme.dangerText.val,
+    success: theme.successText.val,
+    info: theme.infoText.val,
+    neutral: theme.neutralText.val,
   };
 
   return (
@@ -48,8 +48,8 @@ export function DishTag({
       <Text
         fontFamily="$body"
         fontSize={11}
-        fontWeight="600"
-        color={`$${variant === "neutral" ? "textSub" : variant}`}
+        fontWeight="700"
+        color={`$${variant}Text`}
       >
         {label}
       </Text>

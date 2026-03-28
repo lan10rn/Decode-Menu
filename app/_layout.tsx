@@ -5,7 +5,10 @@ import config from "../tamagui.config";
 export default function RootLayout() {
   return (
     <TamaguiProvider config={config} defaultTheme="light">
-      <Stack screenOptions={{ headerShown: false }} />
+      <Stack screenOptions={{ headerShown: false }}>
+        <Stack.Screen name="(tabs)" />
+        <Stack.Screen name="results" />
+      </Stack>
     </TamaguiProvider>
   );
 }
