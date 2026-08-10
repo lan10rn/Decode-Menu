@@ -1,4 +1,4 @@
-import { MaterialIcons } from "@expo/vector-icons"; // Built into Expo
+import { MaterialIcons } from "@expo/vector-icons";
 import { styled, Text, useTheme, YStack } from "tamagui";
 
 const IconCircle = styled(YStack, {
@@ -35,7 +35,7 @@ export function Hero() {
         {/* Main SVG Icon */}
         <MaterialIcons
           name="restaurant-menu"
-          size={40} // Approximate to your 6xl tailwind class
+          size={40} // Approximate to 6xl tailwind class
           color={theme.primary.val} // .val extracts the raw hex string
         />
 
@@ -44,7 +44,7 @@ export function Hero() {
           <MaterialIcons
             name="check-circle"
             size={16}
-            color="#22c55e" // Tailwind green-500 from your original HTML
+            color="#22c55e" // Tailwind green-500
           />
         </Badge>
       </IconCircle>

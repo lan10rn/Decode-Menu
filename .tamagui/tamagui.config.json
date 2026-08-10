@@ -25869,6 +25869,20 @@
           "val": 24,
           "variable": ""
         },
+        "5": {
+          "isVar": true,
+          "key": "$5",
+          "name": "t-radius-5",
+          "val": 24,
+          "variable": ""
+        },
+        "6": {
+          "isVar": true,
+          "key": "$6",
+          "name": "t-radius-6",
+          "val": 32,
+          "variable": ""
+        },
         "round": {
           "isVar": true,
           "key": "$round",
@@ -26030,6 +26044,7 @@
       "margin": "m",
       "marginBottom": "mb",
       "marginRight": "mr",
+      "marginLeft": "ml",
       "marginTop": "mt",
       "width": "w",
       "height": "h",
@@ -26261,6 +26276,20 @@
         "val": 24,
         "variable": ""
       },
+      "$radius.5": {
+        "isVar": true,
+        "key": "$5",
+        "name": "t-radius-5",
+        "val": 24,
+        "variable": ""
+      },
+      "$radius.6": {
+        "isVar": true,
+        "key": "$6",
+        "name": "t-radius-6",
+        "val": 32,
+        "variable": ""
+      },
       "$radius.round": {
         "isVar": true,
         "key": "$round",
@@ -26477,6 +26506,7 @@
       "m": "margin",
       "mb": "marginBottom",
       "mr": "marginRight",
+      "ml": "marginLeft",
       "mt": "marginTop",
       "w": "width",
       "h": "height",
